@@ -1,0 +1,25 @@
+{
+  "name": "codecal",
+  "version": "0.0.1",
+  "description": "Manage availability for Code Noobs members",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/code-noobs/codecal.git"
+  },
+  "author": "Kyle O'Brien",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/code-noobs/codecal/issues"
+  },
+  "homepage": "https://github.com/code-noobs/codecal#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^5.4.13"
+  }
+}
