@@ -22,6 +22,3 @@ app.use(noobRoute);
 app.listen(3003, () => {
   console.log('codeCal is running → PORT 3003');
 });
-
-
-
