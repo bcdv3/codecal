@@ -1,1 +1,5 @@
-codeCal
+# codeCal
+## Installation
+This requires [Node.JS](https://nodejs.org/en/) and an accessible [MongoDB](https://www.mongodb.com/) database, tested on Node v9.11.2 and Mongo 2.6.10. I've seen [mLab](https://mlab.com/) recommended widely as an easy way to get a publicly accessible database running, so if you're looking to avoid running Mongo locally it would be a good place to start.
+
+The primary step after ensuring you have those running (or after you setup an mLab database instead of running Monogo locally) is retrieving your [MongoDB URI](https://docs.mongodb.com/manual/reference/connection-string/). You should also have a database created. When running locally, the default port is 27017, for example "mongodb://localhost:27017/myproject". This includes the database that the codeCal application will modify after the final "/". [For mLab, I found their documentation for finding this here](https://docs.mlab.com/connecting/). You'll use this in between the single quotes on line 11 of index.js. This will likely be replaced in the future with an environment variable.
